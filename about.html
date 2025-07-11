@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Express Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 0;
+      text-align: center;
+      z-index: 999;
+    }
+
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+      background-image: url('Soothing-nature.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .about-title {
+      font-size: 2.5em;
+      animation: pulse 2s infinite;
+      margin-top: 80px;
+    }
+
+    .about-container {
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.55);
+      border-radius: 12px;
+      box-sizing: border-box;
+      overflow-y: auto;
+      max-height: calc(100vh - 160px);
+    }
+
+    .about-text {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      color: #ffd700;
+      font-weight: bold;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="data-demo.html">View Items</a>
+  </nav>
+
+  <h1 class="about-title">🌟 Why This Project Matters</h1>
+
+  <div class="about-container">
+    <div class="about-text">
+      <p>
+        Behind every great app lies a strong connection between <span class="highlight">frontend</span> and <span class="highlight">backend</span>. This project was designed to explore exactly that—how these two worlds communicate smoothly and efficiently.
+      </p>
+
+      <p>
+        Using <span class="highlight">Node.js</span> and <span class="highlight">Express</span>, we crafted a simple yet powerful server, creating an API that feeds dynamic data directly to the browser using modern JavaScript features like <span class="highlight">async/await</span>.
+      </p>
+
+      <p>
+        This isn’t just a demo—it’s a foundation for building complex applications. Understanding how to serve data and fetch it on the client sets the stage for everything from interactive websites to full-scale apps with databases and user logins.
+      </p>
+
+      <p>
+        Ready to dive deeper? The journey from here leads to frameworks like React, state management, and secure authentication. The future of web development is bright, and this project lights the first spark.
+      </p>
+    </div>
+  </div>
+
+</body>
+
+</html>

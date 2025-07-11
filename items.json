@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Green Tote Bag",
+    "category": "Accessories",
+    "description": "Eco-friendly tote bag made from recycled cotton.",
+    "price": 15.99
+  },
+  {
+    "name": "Wireless Earbuds",
+    "category": "Electronics",
+    "description": "Compact and high-quality Bluetooth earbuds with noise cancellation.",
+    "price": 49.99
+  },
+  {
+    "name": "Organic Sketchbook",
+    "category": "Stationery",
+    "description": "Handmade sketchbook with organic cotton pages.",
+    "price": 9.99
+  }
+]

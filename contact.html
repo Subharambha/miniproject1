@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Subha & Pratima Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Fixed navbar at the top */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 0;
+      text-align: center;
+      z-index: 999;
+    }
+
+    nav a {
+      color: #ffd700;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background-image: url('Soothing-nature.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      text-align: center;
+    }
+
+    .contact-container {
+      max-width: 600px;
+      margin: 100px auto 0;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.65);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .contact-container:hover {
+      box-shadow: 0 0 30px rgba(255, 215, 0, 1);
+    }
+
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 15px;
+      letter-spacing: 1.5px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1.1em;
+      width: 100%;
+      font-family: inherit;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #888;
+    }
+
+    button {
+      background-color: #ffd700;
+      color: #000;
+      font-weight: 700;
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.2em;
+      transition: transform 0.25s ease, box-shadow 0.3s ease;
+    }
+
+    button:hover {
+      transform: scale(1.07);
+      box-shadow: 0 0 15px #ffd700;
+    }
+
+    .fun-message {
+      font-style: italic;
+      font-size: 1.15em;
+      margin-top: 25px;
+      color: #ffd700;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="data-demo.html">View Items</a>
+  </nav>
+
+  <div class="contact-container">
+    <h1>Say Hello! 👋</h1>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Drop your message here..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="fun-message">We reply quicker than a JS callback! 🚀</p>
+  </div>
+
+</body>
+</html>
